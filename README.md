@@ -25,5 +25,20 @@ Test Coverage is being tested using :-
 
 3) Roughly 80 % of the code coverage is being achieved. 
 
-4) Also 
+4) Also image.png is attached inside the Geocoder package which shows the google maps showing the location of 123 Gardenville, yorktown, USA 
 
+- INSTRUCTIONS TO RUN THE PROGRAM 
+- 
+1) Clone the repository to the localsystem.
+2) Use eclipse to load the project.
+3) Go to the AddressToLatMapConv.java file and modify line no 87 with the address you aiming to look over by run as java application in Eclipse.
+
+//GoogleResponse res = new AddressToLatMapConv().convertToLatLong("123 Gardenville, Yorktown, VA, USA")
+
+4) You can make it to get initialized from command line but just to show in code I have tried to implicitly supply manually using constructor.
+4) Do integrate the tools ECLEMMA by going to eclipse marketplace and installing the same.
+5) You would be tabulated besides console with coverage tab to display the result once the application is executed as java application.
+6) Check the results .
+
+
+Technologies Used : JAVA, SWINGS.
